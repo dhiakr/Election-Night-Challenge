@@ -17,7 +17,7 @@ export default function DashboardHeader({ refreshing, onRefresh }: DashboardHead
         <button className="secondary-btn" onClick={onRefresh}>
           {refreshing ? "Refreshing..." : "Refresh now"}
         </button>
-        <Link className="primary-btn" href="/upload">
+        <Link className="primary-btn" href="/">
           Import new file
         </Link>
       </div>
