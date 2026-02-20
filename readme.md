@@ -57,7 +57,7 @@ Services:
 
 You can upload via:
 
-1. Frontend page: `http://localhost:3000/upload`
+1. Frontend page: `http://localhost:3000`
 2. API directly: `POST /import` with a multipart file field named `file`
 
 Example with `curl`:
